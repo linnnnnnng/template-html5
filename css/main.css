@@ -86,7 +86,7 @@ textarea {
    Browse Happy prompt
    ========================================================================== */
 
-.browsehappy {
+.notsupport {
     margin: 0.2em 0;
     background: #ccc;
     color: #000;
@@ -96,7 +96,22 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.mainWrapper {width:800px;height:800px;position:relative;margin:0 auto;}
+.header ul li {display:inline;}
+body{font-family:Arial, Helvetica, sans-serif; font-size:14px;}
+a{color:#666;text-decoration:none;}
+a:hover{color:#666;text-decoration:underline;}
 
+#navigation{width:300px;margin:auto;}
+#navigation ul{margin:0;padding:0;list-style:none;}
+#navigation li{float:left;margin:20px 10px;}
+#navigation li a{color:#999;text-decoration:none;}
+#navigation li a:hover, #navigation li.selected a{color:#666;text-decoration:underline;}
+
+.mainContent{clear:both;color:#666;}
+.gallery{margin:20px 0;}
+.page2Output{margin:20px 0;}
+.scrollbar{width:500px;height:300px;overflow:scroll;}
 
 
 
